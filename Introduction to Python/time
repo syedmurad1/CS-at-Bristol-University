@@ -1,0 +1,5 @@
+# Python has a module named datetime to work with dates and times
+import datetime
+
+x = datetime.datetime.now()
+print(x)

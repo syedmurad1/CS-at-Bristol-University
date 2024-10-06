@@ -1,0 +1,4 @@
+# importing the sys module to find out Python version of the editor.
+import sys
+
+print(sys.version)
