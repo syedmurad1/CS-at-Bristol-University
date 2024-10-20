@@ -18,6 +18,8 @@ _my_var = "Syed"
 myVar = "Syed"
 MYVAR = "Syed"
 myvar2 = "Syed"
+# 999_no="syed" - Digits (NOT at the beginning)
+voilà ="there is, there are" #Unicode (from python 3) 
 
 
 print("--------------------------------------------------------")
