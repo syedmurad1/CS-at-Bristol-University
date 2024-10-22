@@ -4,7 +4,18 @@ z = float(3)  # z will be 3.0
 
 #k will overwrite k
 k = 4
+k= "t"
+print(k)
+x=k
+k=5
+print(x)
+print(k)
+x=k
+
+
+
 k = "Sally"
+
 
 #A will not overwrite a
 a = 4
@@ -18,7 +29,7 @@ _my_var = "Syed"
 myVar = "Syed"
 MYVAR = "Syed"
 myvar2 = "Syed"
-# 999_no="syed" - Digits (NOT at the beginning)
+#999_no="syed" - Digits (NOT at the beginning)
 voilà ="there is, there are" #Unicode (from python 3) 
 
 

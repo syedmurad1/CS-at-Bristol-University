@@ -15,6 +15,9 @@ y = "oop"
 def myfunc():
   y = "my firt"
   print("Python is " + y)
+  print(y)
+
+print(y)
 
 myfunc()
 
