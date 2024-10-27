@@ -30,3 +30,10 @@ if k > 10:
     print("and also above 20!")
   else:
     print("but not above 20.")
+
+# pass
+g = 2
+h = 3
+
+if g > h:
+  pass
