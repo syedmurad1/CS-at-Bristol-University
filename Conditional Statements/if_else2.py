@@ -31,9 +31,9 @@ if k > 10:
   else:
     print("but not above 20.")
 
-# pass
-g = 2
-h = 3
+# pass 
+g = 3
+h = 4
 
 if g > h:
   pass
