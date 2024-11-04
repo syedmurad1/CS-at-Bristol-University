@@ -11,7 +11,7 @@ if username == "admin":
         print("Incorrect password. Please try again.")
 else:
     if username == "guest":
-        if password == "guest":
+        if password == "123":
             print("Login successful! Welcome, guest.")
         else:
             print("Incorrect password. Please try again.")
