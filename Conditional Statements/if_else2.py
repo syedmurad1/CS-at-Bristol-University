@@ -22,7 +22,7 @@ if not a > b:
 
 
 # Nested If
-k = 50
+k = 11
 
 if k > 10:
   print("Above ten,")
@@ -32,8 +32,8 @@ if k > 10:
     print("but not above 20.")
 
 # pass 
-g = 3
-h = 4
+# g = 3
+# h = 4
 
-if g > h:
-  pass
+# if g > h:
+#   pass
