@@ -5,6 +5,20 @@ while i <= 7:
     i += 1
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Write a Python code to print the following number pattern using a while loop.
 rows = 5  # Number of rows for the pattern
 i = 1     # Initialise the counter
