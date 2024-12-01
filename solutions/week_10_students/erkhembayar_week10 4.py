@@ -1,4 +1,4 @@
-#1
+#1. Write a program that calculates the Body Mass Index(BMI) and categorises.
 
 weight=float(input("Please enter your weight(kilograms): "))
 height=float(input("Please enter your height(metres): "))
@@ -15,7 +15,7 @@ if bmi > 0:
 else:
     print("Invalid values")
 
-#2
+#2. Write a program that calculates Income Tax Calculator tailored for the UK, using UK's income tax bracked from 2024 to 2025.
 
 income = float(input("Please enter your income in GBP: "))
 
@@ -40,9 +40,9 @@ def income_tax_calculate(income):
     else:
         tax = (max_basic_rate * basic_tax) + (income_tax - max_basic_rate) * higher_tax + (income_tax - max_higher_rate) * additional
     return round(tax, 2)
-print (f"Your tax, based on your yearly income of {income}£ is {(income - income_tax_calculate(income))}£")
+print (f"Your tax, based on your yearly income of {income}£ is {(income_tax_calculate(income))}£")
 
-#3
+#3. Write a program that convert temprature to and from Celsius and Fahrenheit.
 
 value = float(input("Please enter the temprature: "))
 temp = str(input("Please enter the unit: "))
@@ -55,7 +55,7 @@ elif temp == "f":
 else:
     print("invalid input")
 
-#4
+#4. Write a program that checks if a number is positive or negative. If positive, check if odd or even, if negative, check if divisible by 3.
 
 num = float(input("Please enter a number: "))
 if num > 0:
@@ -71,7 +71,7 @@ elif num < 0:
 else:
     print("The number is 0")
 
-#5
+#5. Write a program to calculate bonus of an employee.
 
 service_year = float(input("Please enter the sevice year: "))
 if service_year > 5:
