@@ -1,0 +1,8 @@
+print('My', 'name', 'is', 'king ', sep='$$')
+x, y, z =input("Please enter three names:").split()
+print("name1:", x)
+print("name2:", y)
+print("name3:", z)
+num1=int(input("please enter the first number:"))
+num2=int(input("please enter the second number:"))
+print(num1+num2)
