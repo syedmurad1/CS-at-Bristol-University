@@ -1,0 +1,98 @@
+# 1
+
+
+
+# 2
+a=int(input("Enter number0:"))
+if a>0:
+    print("The number is postive")
+elif a<0:
+    print("The number is negative")
+else:
+    print("It is Zero")
+
+a=int(input("Enter grade:"))
+if 70<=a<=100:
+    print("first class, amazing! but there are some holes left")
+elif 60<=a<=69:
+    print("grade 2.1, good but places for improvement")
+elif 50<=a<=59:
+    print("grade 2.2, adequate but reccomend you get acquinted with your in uni Tutor")
+elif 40<=a<=49:
+    print("3rd Class, you need to get your unis tutor on speed dial")
+elif 0<=a<=39:
+    print(" My man, sorry but F")
+else:
+    print("this is not a grade ")
+
+a=int(input("Enter number0:"))
+if 100>a>70:
+    print("1st class")
+elif 69>a>60:
+        print("2.1st class")
+else:
+        print("between 1st and 2.1st class")
+
+# 4
+
+a=int(input("Can you vote or not:"))
+if a>= 18:
+    print("can vote")
+else:
+    print("Cant vote")
+
+# 6
+
+price_index = (0.5 , 0.75 , 1.20 , 1.50)
+print(price_index)
+
+units = float(input("How much energy unit have you consumed:"))
+
+if units<=100:
+    cost_u100 = units*price_index[0]
+    print("the total is going to be" +cost_u100+ "Pounds")
+elif 100<units<=200:
+    cost_200 = units*price_index[1]
+    print(f"the total is going to be {cost_200 } Pounds")
+elif 200<units<=300:
+    cost_300 = units*price_index[2]
+    print(f"the total is going to be {cost_300 } Pounds")
+elif 300<units:
+    cost_400 = units*price_index[3]
+    print(f"the total is going to be {cost_400 } Pounds")
+
+# 7
+
+x=int(input("Enter number A:"))
+y=int(input("Enter number B:"))
+
+# 8
+
+mon= input("Which month in a numeric(1-12) way?: ")
+
+
+
+if mon==1:
+    print("31 days") 
+elif mon ==2:
+    print ("28 days")
+elif mon ==3:
+    print ("31 days")
+elif mon ==4:
+    print ("31 days")
+elif mon ==5:
+    print ("31 days")
+elif mon ==6:
+    print ("30 days")
+elif mon ==7:
+    print ("31 days")
+elif mon ==8:
+    print ("31 days")
+elif mon ==9:
+    print ("30 days")
+elif mon ==10:
+    print ("31 days")
+elif mon ==11:
+    print ("30 days")
+elif mon ==12:
+    print ("31 days")

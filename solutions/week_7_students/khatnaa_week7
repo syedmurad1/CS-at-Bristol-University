@@ -1,0 +1,57 @@
+# 1
+print("My", "Name", "Is", "King", sep="$$")
+
+# 2
+name= input ("Three names please:")
+
+n1, n2, n3=name.split
+
+print (n1)
+print (n2)
+print (n3)
+
+# 3
+
+num=5.26459884
+
+print(f"{num:.2f}")
+
+# 4
+year = 2023 
+quantity = 3 
+price = 450 
+
+sent=print (f"I have bought {quantity} footballs for {price}, in the year {year}. ")
+
+# 5
+
+first_character = sent[0]
+print(first_character)
+
+# 6
+
+length=len(sent)
+print(length)
+
+# 7
+
+from datetime import date
+
+day=date
+print(day)
+
+# 8
+import random
+rand=random.randint(1.100)
+
+# 9
+a=input ("For Number a")
+b=input ("For Number b")
+ran2=random.randint(a.b)
+
+# 10
+
+a=input ("For Number a")
+b=input ("For Number b")
+sum=a+b
+print ("sum")

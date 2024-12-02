@@ -1,0 +1,91 @@
+# # 1
+
+sum = 0
+
+for number in range(1, 11):
+    sum += number
+
+print("sum of numbers from 1 to 10 is:", sum)
+
+# # 2
+passs = input ("valid password checker: ")
+
+def is_valid_password(passs):
+    if len(passs)>8:
+        print ("This is lesser than 8")
+    if not any(char.isdigit() for char in passs):
+        print("Password must have one letter.")
+        return False
+    if not any(char.isupper() for char in passs):
+        print("Password must have one big letter")
+        return False
+    if not any(char.islower() for char in passs):
+        print("Password must have one small letter")
+        return False
+    if not any(char in "!@#$%^&*()-_+=" for char in passs):
+        print("Password must have one non standard chara (!@#$%^&*()-_+=).")
+        return False
+    return True
+while True:
+    password = input("Enter your password: ")
+    if is_valid_password(password):
+        print("Password is valid.")
+        break
+    else:
+        print("Please try again.")
+
+# # 3
+
+sum = 0
+ennum= input ("Sum of number till the end: ")
+
+for number in range(1, ennum):
+    sum += number
+
+print("sum of numbers from 1 to 10 is:", sum)
+
+
+
+
+# 4
+numbers = [12, 75, 100, 150, 180, 145, 525, 50]
+
+for number in numbers:
+    if number > 500:
+        break
+    if number > 100:
+        continue
+    if number % 5 == 0:
+        print(number)
+
+# 5
+
+
+def reverse_number(number):
+    reversed_number = 0
+    while number > 0:
+        remainder = number % 10
+        reversed_number = (reversed_number * 10) + remainder
+        number = number // 10
+    return reversed_number
+
+number = 598762
+reversed_number = reverse_number(number)
+print(f"The reversed number is: {reversed_number}")
+
+
+
+# 6
+
+leng= int(input ("How big will the triangle be?"))
+for i in range(1, leng + 1):
+    print ('*'* i)
+
+# 7
+
+nam=int(input ("Number for the multip table: "))
+if nam > 15:
+    print ("Sorry no can do it is bigger than 15")
+else:
+    for i in range (1,16):
+        print(f"{nam} x {i} = {nam * i}")
