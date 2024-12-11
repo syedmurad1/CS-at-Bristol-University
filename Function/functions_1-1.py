@@ -30,6 +30,11 @@
 # my_function(*city)
 
 
+# def my_fun(*city):
+#   print(f"I Love {city[2]}" )
+
+# my_fun('Bristol', 'London', 'York')
+
 
 
 
@@ -42,11 +47,15 @@
 # my_fun('Bristol', 'London', 'York')
 
 
+# def my_function(**name):
+#   print("His last name is " + name["lname"])
+
+# my_function(fname = "Syed", lname = "Murad")
 
 def my_fun(**city):
   print("I Love" )
   for i, j in city.items():
-    print(f"{i,j}")
+    print(f"{i} - {j}")
 
 my_fun(UK='Bristol', USA='NY' )
 
