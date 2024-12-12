@@ -1,5 +1,5 @@
 a = 10
-b = 2
+b = 0
 
 # print(a/b)
 
@@ -12,6 +12,16 @@ except Exception as e:
 finally:
     print("Closed")
 
+
+
+
+try:
+    file = open("example.txt", "r")
+    print(file.read())
+except FileNotFoundError:
+    print("File not found.")
+finally:
+    print("Execution complete.")
 
 
 
