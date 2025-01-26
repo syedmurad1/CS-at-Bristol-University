@@ -1,5 +1,6 @@
-# def my_function():
-#   print("Coffee is the best thing in the world")
+def my_function():
+  print("Coffee is the best thing in the world")
+
 
 # my_function()
 
