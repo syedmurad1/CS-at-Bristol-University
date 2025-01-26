@@ -1,21 +1,47 @@
 
-def my_function(x):
-  return 5 * x
+# def my_function(x):
+#   return 5 * x
 
-print(my_function(2))
+# print(my_function(2))
 
 
-def my_function2():
-  z=4+5
-  return z
+# def my_function2():
+#   z=4+5
+#   return z
 
-print(my_function2())
+# print(my_function2())
 
-def my_function2(x,y):
-  z=x+y
-  return z
 
-print(my_function2(3,4))
+
+
+# def my_function2(x,y):
+#   z=x+y
+#   return z
+
+# print(my_function2(3,4))
+
+
+
+def outer():
+  print("This is the outer function.")
+  def inner():
+    print("This is the inner function.")
+  inner()
+
+outer()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

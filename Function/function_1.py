@@ -1,31 +1,31 @@
-def my_function():
-  print("Coffee is the best thing in the world")
+# def my_function():
+#   print("Coffee is the best thing in the world")
 
-my_function()
+# my_function()
 
-def sayHi():  # def is for Functions
-    print("Hello") # need to be indented
+# def sayHi():  # def is for Functions
+#     print("Hello") # need to be indented
 
-sayHi() # to call
+# sayHi() # to call
 
-print("--------------------------------------------------------")
+# print("--------------------------------------------------------")
 
-def sayHi(name): # Arguments
-    print("Hello " + name)
+# def sayHi(name): # Arguments
+#     print("Hello " + name)
 
-sayHi("Syed")
+# sayHi("Syed")
 
-print("--------------------------------------------------------")
+# print("--------------------------------------------------------")
 
-def sayHi(name, age):
-    print("Hello " + name + " you are " + age)
+# def sayHi(name, age):
+#     print("Hello " + name + " you are " + age)
 
-sayHi("Tom", "24")
-sayHi("Syed", "99")
+# sayHi("Tom", "24")
+# sayHi("Syed", "99")
 
-print("--------------------------------------------------------")
+# print("--------------------------------------------------------")
 
-def sayHi(name,age):
-    print("Hello " + name + " you are " + str(age))
+# def sayHi(name,age):
+#     print("Hello " + name + " you are " + str(age))
 
-sayHi("Syed", 94)
+# sayHi("Syed", 94)

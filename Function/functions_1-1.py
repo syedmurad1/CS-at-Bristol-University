@@ -4,17 +4,28 @@
 # my_function("Bristol", "London", "York")
 
 
+
+
 # mycity= ("Bristol", "London", "York")
 # def my_function(*city):
-#   print("I Love " + city[2])
+#   print("I Love " + mycity[1])
 
 # my_function(mycity)
+
+
+
+
+
 
 # city= ("Bristol", "London", "York")
 # def my_function(*city):
 #   print("I Love " + city[2] +" and " +city[0])
 
 # my_function(*city)
+
+
+
+
 
 
 # city= ("Bristol", "London", "York")
@@ -22,6 +33,11 @@
 #   print("I Love " + city[2] +" and " +city[0])
 
 # my_function(*city)
+
+
+
+
+
 
 # city= ("Bristol", "London", "York")
 # def my_function(**city):
@@ -47,10 +63,16 @@
 # my_fun('Bristol', 'London', 'York')
 
 
+
+
 # def my_function(**name):
 #   print("His last name is " + name["lname"])
+#   # print("His last name is " + name["lname"]+ " and his first name is" + name["fname"])
 
 # my_function(fname = "Syed", lname = "Murad")
+
+
+
 
 def my_fun(**city):
   print("I Love" )
@@ -58,6 +80,20 @@ def my_fun(**city):
     print(f"{i} - {j}")
 
 my_fun(UK='Bristol', USA='NY' )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
