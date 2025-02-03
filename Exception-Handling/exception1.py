@@ -1,8 +1,8 @@
-# # ZeroDivisionError
-# try:
-#     print(20 / 0)
-# except ZeroDivisionError:
-#     print("You can't divide by zero!")
+# ZeroDivisionError
+try:
+    print(20 / 0)
+except ZeroDivisionError:
+    print("You can't divide by zero!")
 
 
 # # Multiple Exception Handling
@@ -67,7 +67,7 @@
 # if x < 0:
 #   raise Exception("Sorry, no numbers below zero")
 
-x = "hello"
+# x = "hello"
 
-if not type(x) is int:
-  raise TypeError("Only integers are allowed")
+# if not type(x) is int:
+#   raise TypeError("Only integers are allowed")

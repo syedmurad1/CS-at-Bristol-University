@@ -15,13 +15,13 @@ finally:
 
 
 
-try:
-    file = open("example.txt", "r")
-    print(file.read())
-except FileNotFoundError:
-    print("File not found.")
-finally:
-    print("Execution complete.")
+# try:
+#     file = open("example.txt", "r")
+#     print(file.read())
+# except FileNotFoundError:
+#     print("File not found.")
+# finally:
+#     print("Execution complete.")
 
 
 
