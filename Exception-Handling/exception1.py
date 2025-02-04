@@ -1,4 +1,7 @@
+
 # ZeroDivisionError
+
+
 try:
     print(20 / 0)
 except ZeroDivisionError:
