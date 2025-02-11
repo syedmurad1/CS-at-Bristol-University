@@ -1,4 +1,5 @@
 file = open(r"C:\Users\syedm\Desktop\Github\CS-at-Bristol-University\File-handling\file1.txt", "r")
+#print(file)
 print(file.read())
 
 # t = open(r"C:\Users\syedm\Desktop\Github\CS-at-Bristol-University\File-handling\file1.txt", "r")       #(r"syed.txt", "rt")     
